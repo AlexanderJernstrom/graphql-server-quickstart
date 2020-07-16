@@ -1,5 +1,8 @@
 import { ApolloServer } from "apollo-server-express";
 import express from "express";
+import {resolvers} from './resolvers'
+import {typeDefs} from './typeDefs'
+
 
 const startServer = async () => {
   const app = express();
